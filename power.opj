@@ -1,6 +1,5 @@
 (ExpressProject "power"
   (ProjectVersion "19981106")
-  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "C:\Cadence\SPB_16.6\tools\capture\LIBRARY\Amplifier.olb"
@@ -42,6 +41,30 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN PCB 12x2"
+      (FullPartName "CONN PCB 12x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN PCB 20x2"
+      (FullPartName "CONN PCB 20x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN PCB 10x2"
+      (FullPartName "CONN PCB 10x2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SKE10B-05
+      (FullPartName "SKE10B-05.Normal")
+      (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (CAP
       (FullPartName "CAP.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -62,20 +85,21 @@
       (Path "Design Resources" "Library"
          "c:\myworks\emmiter_new\hard\circuit\library\emmiter.olb")
       (Select "Design Resources" "Library"
-         "c:\myworks\emmiter_new\hard\circuit\library\emmiter.olb" "AG5100"))
+         "c:\myworks\emmiter_new\hard\circuit\library\emmiter.olb" "TPS7A4901"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 336"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 336"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1215 100 474")
-        (Scroll "-131 0")
+        (Scroll "-268 0")
         (Zoom "53")
         (Occurrence "/"))
       (Path "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\POWER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1")))
+  (MPSSessionName "andrej"))
