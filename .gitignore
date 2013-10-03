@@ -1,0 +1,5 @@
+*.BOM
+board
+netlist
+signoise.run
+*.dml
