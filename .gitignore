@@ -3,3 +3,4 @@ board
 netlist
 signoise.run
 *.dml
+*jrl

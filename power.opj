@@ -108,7 +108,7 @@
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "C:\MyWorks\emmiter_new\hard\circuit\project\power\power.brd")
+       "C:\MyWorks\emmiter_new\hard\circuit\project\power\board\power.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -120,7 +120,21 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     (Netlist_TAB "0")
-    (Board_sim_option "VHDL_flow"))
+    ("Allegro Netlist Input Board File"
+       "C:\MyWorks\emmiter_new\hard\circuit\project\power\board\power.brd")
+    (Board_sim_option "VHDL_flow")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\POWER.SWP")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File"
+       "C:\MyWorks\emmiter_new\hard\circuit\project\power\board\power.brd")
+    ("Allegro Backannotation Netlist Directory"
+       "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\NETLIST")
+    ("Allegro Backannotation Output File" "allegro\POWER.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE"))
   (Folder "Outputs"
     (File ".\power.bom"
       (Type "Report"))
@@ -134,7 +148,22 @@
       (DisplayName "pstxprt.dat"))
     (File ".\netlist\pstchip.dat"
       (Type "Report")
-      (DisplayName "pstchip.dat")))
+      (DisplayName "pstchip.dat"))
+    (File ".\netlist\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\netlist\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\netlist\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\netlist\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat"))
+    (File ".\allegro\power.swp"
+      (Type "Report")
+      (DisplayName "POWER.swp")))
   (Folder "Referenced Projects")
   (PartMRUSelector
     (7499411121
@@ -181,10 +210,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\power.dsn")
-      (Path "Design Resources" ".\power.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\power.dsn" "Design Cache")
-      (Select "Design Resources" ".\power.dsn"))
+      (Path "Design Resources"
+         "c:\myworks\emmiter_new\hard\circuit\project\power\power.dsn")
+      (Path "Design Resources"
+         "c:\myworks\emmiter_new\hard\circuit\project\power\power.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\myworks\emmiter_new\hard\circuit\project\power\power.dsn"
+         "Design Cache")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -194,9 +228,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1215 100 474")
-        (Scroll "916 325")
-        (Zoom "212")
+        (Placement "44 2 3 -1 -1 -8 -30 125 1207 125 499")
+        (Scroll "-82 206")
+        (Zoom "106")
         (Occurrence "/"))
       (Path "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\POWER.DSN")
       (Schematic "SCHEMATIC1")
