@@ -210,15 +210,8 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\myworks\emmiter_new\hard\circuit\project\power\power.dsn")
-      (Path "Design Resources"
-         "c:\myworks\emmiter_new\hard\circuit\project\power\power.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "c:\myworks\emmiter_new\hard\circuit\project\power\power.dsn"
-         "Design Cache")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -229,8 +222,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 125 1207 125 499")
-        (Scroll "-82 206")
-        (Zoom "106")
+        (Scroll "886 1219")
+        (Zoom "212")
         (Occurrence "/"))
       (Path "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\POWER.DSN")
       (Schematic "SCHEMATIC1")

@@ -2,7 +2,7 @@
 ;                                                        *
 ; OrCAD Backannotation File                              *
 ; Using  PSTWRITER 16.6.0 d001                            *
-; Oct-10-2013 at 18:11:42                                *
+; Oct-14-2013 at 19:55:50                                *
 ;                                                        *
 ;*********************************************************
 
@@ -12,7 +12,7 @@ DesignName=C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\POWER.DSN
 .End
 
 .Section2 GateAndPinSwap
-	CHANGEPIN J3 1 2
-	CHANGEPIN J3 2 1
+	CHANGEPIN J6 2 1
+	CHANGEPIN J6 1 2
 .End
 
