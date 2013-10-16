@@ -166,6 +166,10 @@
       (DisplayName "POWER.swp")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (7499411121
       (FullPartName "7499411121.Normal")
       (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
@@ -190,10 +194,6 @@
       (FullPartName "SKE10B-05.Normal")
       (LibraryName "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\LIBRARY\EMMITER.OLB")
       (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (CAP
       (FullPartName "CAP.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -211,18 +211,18 @@
     (FileView
       (Path "Design Resources")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\power.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 336"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 336"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 125 1207 125 499")
-        (Scroll "886 1219")
+        (Placement "44 0 1 -1 -1 -8 -30 125 1207 125 499")
+        (Scroll "648 1531")
         (Zoom "212")
         (Occurrence "/"))
       (Path "C:\MYWORKS\EMMITER_NEW\HARD\CIRCUIT\PROJECT\POWER\POWER.DSN")
